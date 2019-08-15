@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: #16a085;
+    height: 90px;
+}
+header img {
+    width: 50x;
+    height: 50px;
+    margin-top:20px;
+}
+
+#loginPic {
+    float: right;
+    border-radius: 100%;
+}
+
+nav a {
+width:50%;
+text-decoration: none;
+color:#000;
+font-size: 25px;
+display: inline-block;
+background:beige;
+text-align: center;
+height: 50px;
+line-height: 50px;
+font-weight: bold;
+}
+
+nav a#right{
+    float: right;
+    
+}
+
+nav a:hover {
+    background:#1abc9c;
+    color: white;
+    border-bottom:2px solid black;
+    
+    transition: 1s;
+}
